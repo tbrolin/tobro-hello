@@ -5,6 +5,8 @@
 const http = require ('http');
 const url = require ('url');
 
+const PORT = process.env.PORT || 8181
+
 const server = http.createServer ((request, response) => {
   // parse the url from request
   let requestUrl = url.parse (request.url);
@@ -22,4 +24,5 @@ const server = http.createServer ((request, response) => {
   }
 });
 
-server.listen (8181);
+console.log (`serving on port ${PORT}`)
+server.listen (PORT);

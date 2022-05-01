@@ -4,5 +4,8 @@
   "main": "index.js",
   "repository": "git@github.com:tbrolin/tobro-hello.git",
   "author": "Tobias Brolin <tobiasbrolin@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  }
 }
