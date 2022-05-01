@@ -1,0 +1,8 @@
+{
+  "name": "tobro-hello",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:tbrolin/tobro-hello.git",
+  "author": "Tobias Brolin <tobiasbrolin@gmail.com>",
+  "license": "MIT"
+}
