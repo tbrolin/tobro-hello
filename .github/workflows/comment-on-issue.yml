@@ -16,7 +16,7 @@ jobs:
             owner: context.repo.owner,
             repo: context.repo.repo,
             body: "🎉 You've created this issue comment using GitHub Script!!!"
-          });
+          })
     - name: Add issue to project board
       if: contains(github.event.issue.labels.*.name, 'bug')
       uses: actions/github-script@0.8.0
